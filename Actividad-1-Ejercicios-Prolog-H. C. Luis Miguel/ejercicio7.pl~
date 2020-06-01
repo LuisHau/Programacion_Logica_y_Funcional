@@ -1,0 +1,5 @@
+/* Ejercicio Practico 6 (2)*/
+
+readline:-get0(X),process(X).
+process(13).
+process(X):-X=\=13,put(X),nl,readline.
